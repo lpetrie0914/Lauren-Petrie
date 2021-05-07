@@ -315,6 +315,8 @@ h5{
 
 .mockups img {
 	margin-bottom: 8%;
+	height: auto;
+
 }
 
 .width70{
@@ -337,10 +339,14 @@ h5{
 	.container{
 		width: 100%;
 	}
-	body{
+	/* body{
 		overflow-x: hidden;
-	}
+	} */
 	.nav-links{
+		width: 45%;
+	} 	
+}
+	/* .nav-links{
 		position: fixed;
 		right:0px;
 		height:350px;
@@ -354,7 +360,7 @@ h5{
 	}
 	.nav-links li{
 		opacity:0;
-	}
+	} */
 	.burger{
 		display: block;
 	}
@@ -389,7 +395,7 @@ h5{
 	  } */
 
 }
-.nav-active{
+/* .nav-active{
 	transform: translateX(0%);
 	background-color: rgb(39, 39, 39);
 }
@@ -415,4 +421,4 @@ h5{
 
 .toggle .line3 {
 	transform: rotate(45deg) translate(-5px,-5px);
-}
+} */
